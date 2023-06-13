@@ -1,6 +1,6 @@
 import { Container } from "./style";
 
-function Navbar() {
+function Generic() {
     return (
         <Container >
             <h1>hello</h1>
@@ -8,4 +8,4 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+export default Generic;

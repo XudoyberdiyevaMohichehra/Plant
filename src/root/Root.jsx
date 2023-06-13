@@ -1,10 +1,10 @@
-
+import { Container } from "./style";
 
 function Root() {
   return (
-    <div className="App">
+    <Container >
      <h1>hello</h1>
-    </div>
+    </Container>
   );
 }
 
