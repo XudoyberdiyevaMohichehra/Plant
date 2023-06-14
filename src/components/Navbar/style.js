@@ -2,8 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display:flex;
-  justify-content:space-between;
-  align-items:center;
+  justify-content:center;
+  `
+export const Wrapper = styled.div`
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ width:100%;
+ max-width: 1440px;
 `
 
 export const Section = styled.div`
