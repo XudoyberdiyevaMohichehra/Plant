@@ -1,98 +1,19 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
-const rotate = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
 
 const checkPx = (type) => {
   return `${parseFloat(type)}px`;
 };
 
-const getSize = ({ size }) => {
-  size = `${size}`.toLowerCase();
-  switch (size) {
-    case "small":
-      return "16px";
-    case "medium":
-      return "18px";
-    case "large":
-      return "20px";
-    default:
-      return "16px";
-  }
-};
-
-const getColor = ({ type }) => {
-  type = `${type}`.toLowerCase();
-  switch (type) {
-    case "primary":
-      return {
-        color: "var(--primaryColor)",
-        background: "var(--primaryBgColor)",
-      };
-    case "dashed":
-      return {
-        color: "var(--dark)",
-        background: "var(--primaryColor)",
-        border: "var(--borderDashed)",
-      };
-    case "danger":
-      return {
-        color: "var(--white)",
-        background: "var(--danger)",
-        border: "var(--dangerBorder)",
-      };
-    case "warning":
-      return {
-        color: "var(--white)",
-        background: "var(--warning)",
-        border: "none",
-      };
-    case "loading":
-      return {
-        color: "var(--white)",
-        background: "var(--greenColor)",
-        border: "none",
-      };
-    case "secondary":
-      return {
-        color: "var(--white)",
-        background: "var(--secondary)",
-        border: "none",
-      };
-    case "info":
-      return {
-        color: "var(--white)",
-        background: "var(--info)",
-        border: "none",
-      };
-    case "link":
-      return {
-        color: "var(--primary)",
-        background: "var(--white)",
-        border: "none",
-      };
-    default:
-      return {};
-  }
-};
 
 export const Container = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: ${getSize};
-  width: ${({ width }) => (width ? checkPx(width) : "125px")};
+  background:  ${({ background }) => (background ? "var(--lightgreen) " : "var(--green)")};
+  color: var(--white);
+  font-size: ${({ fontSize }) => (fontSize ? "14px" : "18px")};
+  padding: ${({ padding }) => (padding ? "12px 16px " : "16px 32px")};
   border-radius: ${({ borderRadius }) =>
     borderRadius ? checkPx(borderRadius) : "4px"};
   border: ${({ border }) => (border ? border : "var(--border)")};
-  height: ${({ height }) => (height ? checkPx(height) : "36px")};
-  ${getColor}
   cursor: pointer;
   transition: box-shadow 0.2s linear infinite;
   :active {
@@ -102,22 +23,12 @@ export const Container = styled.button`
     box-shadow: 0 0 10px #d7dbe0cd;
     cursor:pointer;
   }
-
-  :focus {
-    & img {
-      display: block;
-      animation: ${({ type }) => (type !== "info" ? rotate : null)} 2s linear
-        infinite;
-    }
-    opacity: 0.8;
-  }
+  
+    // opacity: ${({ opacity }) => (opacity ? "0.7" : '0.9')};
+  
 `;
 
-export const LoadImage = styled.img`
-  width: 20px;
-  margin-right: 10px;
-  display: none;
-`;
+
 
 
 

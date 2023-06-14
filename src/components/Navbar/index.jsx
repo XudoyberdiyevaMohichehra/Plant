@@ -1,9 +1,10 @@
+import NormalButton from "../Button";
 import { Container } from "./style";
 
 function Navbar() {
     return (
         <Container >
-            <h1>hello</h1>
+            <NormalButton background>Cactus Stem</NormalButton>
         </Container>
     );
 }

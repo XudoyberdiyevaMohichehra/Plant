@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 40px 144px;
+  display:flex;
+`
+
+export const section = styled.div`
+  display:flex;
 `

@@ -1,9 +1,10 @@
+import Navbar from "../components/Navbar";
 import { Container } from "./style";
 
 function Root() {
   return (
     <Container >
-     <h1>hello</h1>
+     <Navbar/>
     </Container>
   );
 }

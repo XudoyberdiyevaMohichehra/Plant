@@ -10,12 +10,22 @@
 }
 
 
-
-
 :root{
+  /* colors */
   --green: #066F14;
+  --lightgreen: #066F14B2;
   --lightBlue: #EAF2E5;
   --lightPurple: #F0EBE6;;
   --aquaBlue: #DFFFE3;
   --insta: #00000057;
+  --white:#FFFF;
+
+  /* padding */
+  --bigpadding: 16px 32px;
+  --middlepadding: 12px 16px;
+  --smallpadding: 11px 16px;
+
+  /* fontSize */
+  --bigButtonSize: 18px;
+  --smallButtonSize: 14px;
 }
