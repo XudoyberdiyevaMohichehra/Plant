@@ -13,8 +13,7 @@ export const Wrapper = styled.div`
 `
 
 export const Section = styled.div`
-  //  width:50%;
-  // flex: 2;
+ 
 `
 export const Header = styled.div`
   font-family: 'Nunito';
@@ -65,6 +64,46 @@ export const NumberTitle = styled.p`
   color: #1A1A1A;
 `
 export const Img = styled.img`
-  // padding-left:170px;
-  margin-right:0;
+`
+export const Div = styled.div`
+ display:flex;
+ align-items:center;
+ position: absolute;
+ top:195px;
+ right:115px;
+`
+export const Div2 = styled.div`
+ display:flex;
+ align-items:center;
+ position: absolute;
+ top:295px;
+ right:480px;
+ 
+`
+export const Div3 = styled.div`
+ display:flex;
+ align-items:center;
+ position: absolute;
+ top:695px;
+ right:90px;
+`
+export const Button = styled.button`
+ width: 150px;
+ height:44px;
+ cursor:pointer;
+ background:var(--lightgreen);
+ border:none;
+ border-radius:4px;
+ color:white;
+ font-size:16px;
+`
+export const Line = styled.div`
+ width: 100px;
+ height:4px;
+ background:var(--lightgreen);
+`
+export const Line3 = styled.div`
+ width: 80px;
+ height:4px;
+ background:var(--lightgreen);
 `
