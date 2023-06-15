@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
  justify-content:space-between;
  width:100%;
  max-width: 1440px;
- gap:80px;
+
 `
 
 export const Section = styled.div`

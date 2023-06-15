@@ -21,7 +21,7 @@ function Collection() {
             <Wrapper>
                 <Section>
                     <Header>We have lots of plants collection for you and your family</Header>
-                    <Title href="/">See all collection <Arrow/></Title>
+                    <Title >See all collection <Arrow/></Title>
                 </Section>
                 <ImgWrapper>
                     <ImgBox>
