@@ -32,14 +32,14 @@ export const Title = styled.p`
   font-size: 16px;
   line-height: 160%;
   color: #4A4A4A;
-  padding: 40px 0;
+  padding: 35px 0;
   width:85%;
 
 `
 export const PlusBoxes = styled.div`
   display:flex;
   gap:90px;
-  margin-top:60px;
+  margin-top:50px;
 `
 export const PlusBox = styled.div`
   display:flex;
@@ -62,6 +62,12 @@ export const NumberTitle = styled.p`
   font-size: 18px;
   line-height: 23px;
   color: #1A1A1A;
+`
+export const ImgWrapper = styled.div`
+   position: relative;
+   width: 700px;
+   height: 800px;
+   border:2px solid red;
 `
 export const Img = styled.img`
 `

@@ -17,7 +17,7 @@ function Navbar() {
            </Section>
            <Section> 
                 <Title>Login</Title>
-                    <NormalButton width padding fontsize>Sign Up</NormalButton>
+                    <NormalButton padding fontsize>Sign Up</NormalButton>
            </Section>
           </Wrapper>
         </Container>
