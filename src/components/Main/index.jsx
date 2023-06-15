@@ -2,10 +2,11 @@ import NormalButton from "../Button";
 import {
     Container, Wrapper, Section,
     Header, Title, PlusBoxes, PlusBox, Number,
-    NumberTitle,  Img, Div, Button, Line, Div2, Div3, Line3
+    NumberTitle, Img, Div, ImgDiv, Button, Line, Div2, Div3, Line3
 } from "./style";
 
 import Aloe from "../../assets/imgs/bigAloe3.png";
+import Leaf from "../../assets/imgs/leaf.png";
 import { ReactComponent as Frame } from "../../assets/icons/Frame.svg";
 
 
@@ -32,6 +33,10 @@ function Main() {
                         </PlusBox>
                     </PlusBoxes>
                 </Section>
+                <ImgDiv>
+                <Img src={Leaf} />
+                </ImgDiv>
+
                 <Img src={Aloe} alt="Aloe" />
                 <Div>
                     <Frame />

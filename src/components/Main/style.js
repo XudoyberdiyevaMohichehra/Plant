@@ -15,6 +15,11 @@ export const Wrapper = styled.div`
 export const Section = styled.div`
  
 `
+export const ImgDiv = styled.div`
+ position: absolute;
+ top:500px;
+ left:550px;
+`
 export const Header = styled.div`
   font-family: 'Nunito';
   font-style: normal;
