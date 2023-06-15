@@ -1,12 +1,18 @@
-import NormalButton from "../Button";
 import {
-    Container, Wrapper, Section,
-    Header, Title, PlusBoxes, PlusBox, Number,
-    NumberTitle, ImgWrapper, Img, Div, Button, Line, Div2, Div3, Line3
+    Container,
+    Wrapper, 
+    Section,
+    Header, 
+    Title, 
+    ImgWrapper, 
+    ImgBox, 
+    Img, 
 } from "./style";
 
-import Aloe from "../../assets/imgs/bigAloe3.png";
-import { ReactComponent as Frame } from "../../assets/icons/Frame.svg";
+import col1 from "../../assets/imgs/col-1.png";
+import col2 from "../../assets/imgs/col-2.png";
+import col3 from "../../assets/imgs/col-3.png";
+import { ReactComponent as Arrow } from "../../assets/icons/Arrow-col.svg";
 
 
 function Collection() {
@@ -14,42 +20,20 @@ function Collection() {
         <Container >
             <Wrapper>
                 <Section>
-                    <Header>Growing Beautiful Plants at Home</Header>
-                    <Title>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.</Title>
-                    <NormalButton>Learn More</NormalButton>
-                    <PlusBoxes>
-                        <PlusBox>
-                            <Number>2000+</Number>
-                            <NumberTitle>Delivery</NumberTitle>
-                        </PlusBox>
-                        <PlusBox>
-                            <Number>1200+</Number>
-                            <NumberTitle>Customers</NumberTitle>
-                        </PlusBox>
-                        <PlusBox>
-                            <Number>1000+</Number>
-                            <NumberTitle>Product</NumberTitle>
-                        </PlusBox>
-                    </PlusBoxes>
+                    <Header>We have lots of plants collection for you and your family</Header>
+                    <Title href="/">See all collection <Arrow/></Title>
                 </Section>
-                {/* <ImgWrapper> */}
-                <Img src={Aloe} alt="Aloe" />
-                <Div>
-                    <Frame />
-                    <Line></Line>
-                    <Button background>Cactus Thorn</Button>
-                </Div>
-                <Div2>
-                    <Button>Cactus Stem</Button>
-                    <Line></Line>
-                    <Frame />
-                </Div2>
-                <Div3>
-                    <Frame />
-                    <Line3></Line3>
-                    <Button>Plant Media</Button>
-                </Div3>
-                {/* </ImgWrapper> */}
+                <ImgWrapper>
+                    <ImgBox>
+                        <Img src={col1}/>
+                    </ImgBox>
+                    <ImgBox style={{background:"var(--lightPurple)"}}>
+                        <Img src={col2} />
+                    </ImgBox>
+                    <ImgBox>
+                        <Img src={col3} />
+                    </ImgBox>
+                </ImgWrapper>               
             </Wrapper>
         </Container>
     );

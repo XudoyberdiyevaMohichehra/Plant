@@ -14,12 +14,11 @@ export const Container = styled.button`
    border-radius: ${({ borderRadius }) =>borderRadius ? checkPx(borderRadius) : "4px"};
    cursor: pointer;
    border:none;
-   transition: box-shadow 0.2s linear infinite;
    :active {
      transform: scale(0.97);
    }
    :hover{
-     box-shadow: 0 0 10px #d7dbe0cd;
+     box-shadow: 0 0 10px var(--lightgreen);
      cursor:pointer;
   }
   

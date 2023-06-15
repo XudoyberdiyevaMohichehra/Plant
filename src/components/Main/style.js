@@ -97,6 +97,13 @@ export const Button = styled.button`
  border-radius:4px;
  color:white;
  font-size:16px;
+  :active {
+     transform: scale(0.97);
+   }
+   :hover{
+     box-shadow: 0 0 10px var(--lightgreen);
+     cursor:pointer;
+  }
 `
 export const Line = styled.div`
  width: 100px;

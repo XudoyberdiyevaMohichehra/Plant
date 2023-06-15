@@ -1,5 +1,7 @@
 import NormalButton from "../Button";
-import { Container, Wrapper, Section, LogoTitle, Title } from "./style";
+import { Container, Wrapper, Section,
+     LogoTitle, 
+    Ul, Li } from "./style";
 import { navbar } from "../../utils/navbar";
 
 
@@ -11,12 +13,15 @@ function Navbar() {
                 <LogoTitle>Plant</LogoTitle>
            </Section>
            <Section>
+            <Ul>
+
             {navbar.map(({id, title})=>
-                <Title key={id}>{title}</Title>
+                <Li className="li" key={id}>{title}</Li>
                 )}
+                </Ul>
            </Section>
            <Section> 
-                <Title>Login</Title>
+                    <Li className="li" >Login</Li>
                     <NormalButton padding fontsize>Sign Up</NormalButton>
            </Section>
           </Wrapper>

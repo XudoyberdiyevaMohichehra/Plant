@@ -29,3 +29,20 @@
   --bigButtonSize: 18px;
   --smallButtonSize: 14px;
 }
+
+.li::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  background: var(--lightgreen);
+  box-shadow: 0 0 2px black;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -1px;
+  right: 0%;
+  transition: .3s;
+}
+.li:hover:after {
+  width: 100%;
+  left: 0%;
+}
