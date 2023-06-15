@@ -2,14 +2,14 @@ import NormalButton from "../Button";
 import {
     Container, Wrapper, Section,
     Header, Title, PlusBoxes, PlusBox, Number,
-    NumberTitle,  Img, Div, Button, Line, Div2, Div3, Line3
+    NumberTitle, ImgWrapper, Img, Div, Button, Line, Div2, Div3, Line3
 } from "./style";
 
 import Aloe from "../../assets/imgs/bigAloe3.png";
 import { ReactComponent as Frame } from "../../assets/icons/Frame.svg";
 
 
-function Main() {
+function Collection() {
     return (
         <Container >
             <Wrapper>
@@ -32,6 +32,7 @@ function Main() {
                         </PlusBox>
                     </PlusBoxes>
                 </Section>
+                {/* <ImgWrapper> */}
                 <Img src={Aloe} alt="Aloe" />
                 <Div>
                     <Frame />
@@ -48,10 +49,10 @@ function Main() {
                     <Line3></Line3>
                     <Button>Plant Media</Button>
                 </Div3>
-                
+                {/* </ImgWrapper> */}
             </Wrapper>
         </Container>
     );
 }
 
-export default Main;
+export default Collection;

@@ -63,7 +63,12 @@ export const NumberTitle = styled.p`
   line-height: 23px;
   color: #1A1A1A;
 `
-
+export const ImgWrapper = styled.div`
+   position: relative;
+   width: 700px;
+   height: 800px;
+   border:2px solid red;
+`
 export const Img = styled.img`
 `
 export const Div = styled.div`
