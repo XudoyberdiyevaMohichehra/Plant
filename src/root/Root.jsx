@@ -4,6 +4,7 @@ import Collection from "../components/Collection";
 import About from "../components/About";
 import Best from "../components/Best";
 import Customer from "../components/Customer";
+import Subscribe from "../components/Subscribe";
 import { Container } from "./style";
 
 function Root() {
@@ -15,6 +16,7 @@ function Root() {
       <About />
       <Best/>
       <Customer/>
+      <Subscribe/>
     </Container>
   );
 }

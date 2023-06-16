@@ -1,0 +1,58 @@
+import {
+    Container,
+    Wrapper, 
+    Section,
+    Header, 
+    Title,
+    Input,
+    Div, 
+    Button,
+    ImgWrapper, 
+    ImgBox, 
+    Img, 
+} from "./style";
+
+import Flower from "../../assets/imgs/uniqui-plant.png";
+import col2 from "../../assets/imgs/col-2.png";
+import col3 from "../../assets/imgs/col-3.png";
+import { ReactComponent as Arrow } from "../../assets/icons/Arrow-col.svg";
+import NormalButton from "../Button";
+
+
+function Subscribe() {
+    return (
+        <Container >
+            <Wrapper>
+                <Section>
+                <div style={{width:'60%'}} >
+                    <Header>Subscribe Our Newsletter</Header>
+                    <Title >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, at tempor, accumsan sit amet nunc cursus. </Title>
+                       <div style={{display:'flex'}}>
+                        <Input type="text" placeholder="Enter mail"></Input>
+                        <Div>
+                        <Button fontsize padding>Subscribe</Button>
+                        </Div>
+                       </div>
+                    </div>
+                    <ImgBox>
+                      <Img src={Flower} alt="Flower" />
+                    </ImgBox>
+
+                </Section>
+                {/* <ImgWrapper>
+                    <ImgBox>
+                        <Img src={col1}/>
+                    </ImgBox>
+                    <ImgBox style={{background:"var(--lightPurple)"}}>
+                        <Img src={col2} />
+                    </ImgBox>
+                    <ImgBox>
+                        <Img src={col3} />
+                    </ImgBox>
+                </ImgWrapper>                */}
+            </Wrapper>
+        </Container>
+    );
+}
+
+export default Subscribe;
