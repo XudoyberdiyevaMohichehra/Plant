@@ -3,6 +3,7 @@ import Main from "../components/Main";
 import Collection from "../components/Collection";
 import About from "../components/About";
 import Best from "../components/Best";
+import Customer from "../components/Customer";
 import { Container } from "./style";
 
 function Root() {
@@ -13,6 +14,7 @@ function Root() {
       <Collection />
       <About />
       <Best/>
+      <Customer/>
     </Container>
   );
 }
