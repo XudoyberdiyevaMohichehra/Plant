@@ -14,13 +14,13 @@ function Root() {
     <Container >
      <Navbar/>
       <Main />
-      {/* <Collection />
+      <Collection />
       <About />
       <Best/>
       <Customer/>
       <Subscribe />
       <Follow />
-      <Footer /> */}
+      <Footer />
     </Container>
   );
 }
