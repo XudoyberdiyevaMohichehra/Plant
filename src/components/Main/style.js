@@ -10,6 +10,9 @@ export const Wrapper = styled.div`
  justify-content:space-between;
  width:100%;
  max-width: 1440px;
+
+ @media (max-width: 400px) {
+}
 `
 
 export const Section = styled.div`
@@ -29,6 +32,13 @@ export const Header = styled.div`
   color: #1A1A1A;
   width:90%;
   margin-top: 90px;
+
+  @media (max-width: 400px) {
+  font-size: 56px;
+  // width:100%;
+  margin-top: 90px;
+    
+}
 `
 export const Title = styled.p`
   font-family: 'DM Sans';
@@ -70,6 +80,10 @@ export const NumberTitle = styled.p`
 `
 
 export const Img = styled.img`
+ @media (max-width: 400px) {
+  width:400px;
+  height:600px;
+}
 `
 export const Div = styled.div`
  display:flex;
@@ -77,6 +91,9 @@ export const Div = styled.div`
  position: absolute;
  top:195px;
  right:115px;
+ @media (max-width: 400px) {
+  display:none;
+}
 `
 export const Div2 = styled.div`
  display:flex;
@@ -84,7 +101,9 @@ export const Div2 = styled.div`
  position: absolute;
  top:295px;
  right:480px;
- 
+  @media (max-width: 400px) {
+  display:none;
+}
 `
 export const Div3 = styled.div`
  display:flex;
@@ -92,6 +111,9 @@ export const Div3 = styled.div`
  position: absolute;
  top:695px;
  right:90px;
+  @media (max-width: 400px) {
+  display:none;
+}
 `
 export const Button = styled.button`
  width: 150px;

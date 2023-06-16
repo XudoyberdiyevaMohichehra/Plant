@@ -15,9 +15,11 @@ function Main() {
         <Container >
             <Wrapper>
                 <Section>
+                    <div>
                     <Header>Growing Beautiful Plants at Home</Header>
                     <Title>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.</Title>
                     <NormalButton>Learn More</NormalButton>
+                    </div>
                     <PlusBoxes>
                         <PlusBox>
                             <Number>2000+</Number>
@@ -34,7 +36,7 @@ function Main() {
                     </PlusBoxes>
                 </Section>
                 <ImgDiv>
-                <Img src={Leaf} />
+                <img className="leaf" src={Leaf} />
                 </ImgDiv>
 
                 <Img src={Aloe} alt="Aloe" />

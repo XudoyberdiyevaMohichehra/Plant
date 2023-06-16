@@ -46,3 +46,10 @@
   width: 100%;
   left: 0%;
 }
+
+
+  @media screen and (max-width: 400px) {
+      .leaf {
+         display: none;
+      }
+    }
