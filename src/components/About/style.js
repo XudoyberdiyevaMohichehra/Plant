@@ -66,20 +66,3 @@ export const Div2 = styled.div`
  
 `
 
-export const Button = styled.button`
- width: 150px;
- height:44px;
- cursor:pointer;
- background:var(--lightgreen);
- border:none;
- border-radius:4px;
- color:white;
- font-size:16px;
-  :active {
-     transform: scale(0.97);
-   }
-   :hover{
-     box-shadow: 0 0 10px var(--lightgreen);
-     cursor:pointer;
-  }
-`

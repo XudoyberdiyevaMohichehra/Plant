@@ -7,16 +7,11 @@ import {
     Input,
     Div, 
     Button,
-    ImgWrapper, 
     ImgBox, 
     Img, 
 } from "./style";
 
 import Flower from "../../assets/imgs/uniqui-plant.png";
-import col2 from "../../assets/imgs/col-2.png";
-import col3 from "../../assets/imgs/col-3.png";
-import { ReactComponent as Arrow } from "../../assets/icons/Arrow-col.svg";
-import NormalButton from "../Button";
 
 
 function Subscribe() {

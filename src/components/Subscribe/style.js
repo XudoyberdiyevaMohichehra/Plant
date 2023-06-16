@@ -10,7 +10,6 @@ export const Wrapper = styled.div`
  justify-content:center;
  width:100%;
  max-width: 1440px;
-//  margin:auto;
 `
 
 export const Section = styled.div`
@@ -40,10 +39,7 @@ export const Title = styled.p`
   margin:30px 0;
 `
 
-export const ImgWrapper = styled.div`
-   display:flex;
-   gap:25px;
-`
+
 export const ImgBox = styled.div`
    display:flex;
    align-items:center;
