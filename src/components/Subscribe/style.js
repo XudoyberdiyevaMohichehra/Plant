@@ -55,7 +55,7 @@ export const Img = styled.img`
    right:30px;
 `
 export const Input = styled.input`
-   width: 340px; //450
+   width: 340px; 
    height: 56px;
    padding: 8px 8px 8px 20px;
    background: #FFFFFF;
@@ -63,6 +63,7 @@ export const Input = styled.input`
    border:none;
    outline:none;
    font-size: 14px;
+  
 `
 export const Div = styled.div`
    width: 100px;

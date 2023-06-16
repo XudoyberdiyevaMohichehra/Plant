@@ -22,7 +22,7 @@ function Subscribe() {
                 <div style={{width:'60%'}} >
                     <Header>Subscribe Our Newsletter</Header>
                     <Title >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, at tempor, accumsan sit amet nunc cursus. </Title>
-                       <div style={{display:'flex'}}>
+                       <div  style={{display:'flex'}}>
                         <Input type="text" placeholder="Enter mail"></Input>
                         <Div>
                         <Button fontsize padding>Subscribe</Button>
@@ -34,17 +34,7 @@ function Subscribe() {
                     </ImgBox>
 
                 </Section>
-                {/* <ImgWrapper>
-                    <ImgBox>
-                        <Img src={col1}/>
-                    </ImgBox>
-                    <ImgBox style={{background:"var(--lightPurple)"}}>
-                        <Img src={col2} />
-                    </ImgBox>
-                    <ImgBox>
-                        <Img src={col3} />
-                    </ImgBox>
-                </ImgWrapper>                */}
+              
             </Wrapper>
         </Container>
     );
