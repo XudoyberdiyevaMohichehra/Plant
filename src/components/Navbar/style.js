@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import NormalButton from "../Button";
 
 export const Container = styled.div`
   display:flex;
@@ -10,6 +11,11 @@ export const Wrapper = styled.div`
  justify-content:space-between;
  width:100%;
  max-width: 1440px;
+
+ @media (max-width: 400px) {
+ justify-content:space-between;
+  gap:230%;
+}
 `
 
 export const Section = styled.div`
@@ -52,5 +58,25 @@ export const Li = styled.li`
     cursor:pointer;
   }
   
+  @media (max-width: 400px) {
+    display:none;
+  }
 
+`
+
+export const Img = styled.img`
+ display:none;
+ width:30px;
+ height:30px;
+
+ @media (max-width: 400px) {
+ display:block;
+}
+`
+export const Button = styled(NormalButton)`
+ 
+ @media (max-width: 400px) {
+ display:none;
+  
+}
 `

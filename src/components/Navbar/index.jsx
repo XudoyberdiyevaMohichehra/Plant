@@ -1,9 +1,9 @@
-import NormalButton from "../Button";
 import { Container, Wrapper, Section,
      LogoTitle, 
-    Ul, Li } from "./style";
+    Ul, Li, Img, Button
+} from "./style";
 import { navbar } from "../../utils/navbar";
-
+import Menu from "../../assets/imgs/menu.png";
 
 function Navbar() {
     return (
@@ -22,8 +22,11 @@ function Navbar() {
            </Section>
            <Section> 
                     <Li className="li" >Login</Li>
-                    <NormalButton padding fontsize>Sign Up</NormalButton>
+                    <Button padding fontsize>Sign Up</Button>
            </Section>
+           {/* <Section> */}
+                    <Img src={Menu} alt="menu"/>
+           {/* </Section> */}
           </Wrapper>
         </Container>
     );
