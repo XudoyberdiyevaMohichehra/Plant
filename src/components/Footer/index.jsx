@@ -1,12 +1,8 @@
-import NormalButton from "../Button";
 import {
     Container, Wrapper, Section, Text,
     Header, Title, Icon,
-    Img, Div, Div2,
+    Div, Div2,
 } from "./style";
-// import { ReactComponent as Facebook } from "../../assets/icons/facebook.svg";
-// import { ReactComponent as Instagram } from "../../assets/icons/instagram.svg";
-// import { ReactComponent as Twitter } from "../../assets/icons/twitter.svg";
 
 function About() {
     return (
