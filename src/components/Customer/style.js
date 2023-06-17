@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content:center;
   margin-top:128px;
 
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
   margin-top:90px;
 }
   `
@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
  width:100%;
  max-width: 1440px;
 
- @media (max-width: 600px) {
+ @media (max-width: 400px) {
   padding:0 40px;
   flex-direction:column;
 }
@@ -34,7 +34,7 @@ export const Header = styled.div`
   line-height: 50px;
   color: #1A1A1A;
   
-   @media (max-width: 600px) {
+   @media (max-width: 400px) {
   text-align:center;
   padding-bottom:10px;
   margin:0;
@@ -50,7 +50,7 @@ export const Title = styled.p`
   padding: 20px 0 40px 0;
   width:85%;
 
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
   display:none;
 }
 
@@ -66,14 +66,14 @@ export const Title2 = styled.p`
   width:85%;
   display:none;
   
-   @media (max-width: 600px) {
+   @media (max-width: 400px) {
   display:block;
 }
 
 `
 
 export const Img = styled.img`
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   padding-top:210px;
 `
 export const Div = styled.div`
@@ -84,8 +84,8 @@ export const Div = styled.div`
   position: relative;
   position: absolute;
   
-  @media (max-width: 600px) {
-  width: 205px;
+  @media (max-width: 400px) {
+  width: 305px;
   height:204px;
 }
 `
@@ -121,7 +121,7 @@ export const ArrowWrapper = styled.div`
   top:-43px;
   left:568px;
   
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
     display:none;
 }
 `
@@ -132,7 +132,7 @@ export const ArrowDiv = styled.div`
   display:flex;
   align-items:center;
   justify-content:center;
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
     display:none;
 }
 `

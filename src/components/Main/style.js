@@ -7,10 +7,9 @@ export const Container = styled.div`
   margin-top:30px;
   padding: 0 140px ;
 
-   @media (max-width: 600px) {
+   @media (max-width: 400px) {
    padding: 0 ;
-   margin-top:10px;
-    
+   
 }
   `
 export const Wrapper = styled.div`
@@ -19,7 +18,7 @@ export const Wrapper = styled.div`
  width:100%;
  max-width: 1440px;
 
- @media (max-width: 600px) {
+ @media (max-width: 400px) {
   flex-direction:column;  
   padding-left:15px;
 }
@@ -33,7 +32,7 @@ export const ImgDiv = styled.div`
  top:500px;
  left:550px;
 
- @media (max-width: 600px) {
+ @media (max-width: 400px) {
   display:none;
  }
 `
@@ -47,7 +46,7 @@ export const Header = styled.div`
   width:90%;
   margin-top: 90px;
 
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
   font-size: 40px;
   margin-top: 20px;
   line-height: 50px;
@@ -66,7 +65,7 @@ export const Title = styled.p`
   padding: 35px 0;
   width:85%;
 
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
   font-size: 16px;
   line-height: 160%;
   text-align:center;  
@@ -74,8 +73,7 @@ export const Title = styled.p`
 
 `
 export const NormalButton1 = styled(NormalButton)`
-  @media (max-width: 600px) {
-  margin-left:130px;
+  
 `
 
 export const PlusBoxes = styled.div`
@@ -83,9 +81,8 @@ export const PlusBoxes = styled.div`
   gap:90px;
   margin-top:50px;
 
- @media (max-width: 600px) {
-   margin-left:50px;
-    gap:20px;  
+  @media (max-width: 400px) {
+    gap:20px; 
 }
 `
 export const PlusBox = styled.div`
@@ -102,7 +99,7 @@ export const Number = styled.p`
   line-height: 49px;
   color: #001B04;
 
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
   font-size: 30px;
   line-height: 40px;
  }
@@ -117,7 +114,7 @@ export const NumberTitle = styled.p`
 `
 
 export const Img = styled.img`
- @media (max-width: 600px) {
+ @media (max-width: 400px) {
   width:370px;
   height:500px;
 }
@@ -128,7 +125,7 @@ export const Div = styled.div`
  position: absolute;
  top:195px;
  right:115px;
- @media (max-width: 600px) {
+ @media (max-width: 400px) {
   display:none;
 }
 `
@@ -138,7 +135,7 @@ export const Div2 = styled.div`
  position: absolute;
  top:295px;
  right:480px;
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
   display:none;
 }
 `
@@ -148,7 +145,7 @@ export const Div3 = styled.div`
  position: absolute;
  top:695px;
  right:90px;
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
   display:none;
 }
 `
