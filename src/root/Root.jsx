@@ -13,14 +13,14 @@ function Root() {
   return (
     <Container >
      <Navbar/>
-      <Main />
+      {/* <Main /> */}
       <Collection />
-      <About />
-      <Best/>
-      <Customer/>
+      {/* <About /> */}
+      {/* <Best/> */}
+      {/* <Customer/>
       <Subscribe />
       <Follow />
-      <Footer />
+      <Footer /> */}
     </Container>
   );
 }

@@ -4,6 +4,12 @@ import NormalButton from "../Button";
 export const Container = styled.div`
   display:flex;
   justify-content:center;
+  padding: 0px 144px ;
+  padding-top: 40px ;
+  
+  @media (max-width: 400px) {
+  padding: 40px 40px ;
+ }
   `
 export const Wrapper = styled.div`
  display:flex;
@@ -14,14 +20,14 @@ export const Wrapper = styled.div`
 
  @media (max-width: 400px) {
  justify-content:space-between;
-  gap:230%;
+  gap:10vw;
 }
 `
 
 export const Section = styled.div`
-  display:flex;
-  align-items:center;
-  gap:50px;
+  // display:flex;
+  // align-items:center;
+  // gap:50px;
 `
 export const LogoTitle = styled.h3`
   font-family: 'Nunito';
@@ -30,6 +36,10 @@ export const LogoTitle = styled.h3`
   font-size: 24px;
   line-height: 33px;
   color: #1A1A1A;
+
+  @media (max-width: 400px) {
+  
+ }
 `
 
 export const Ul = styled.ul`
