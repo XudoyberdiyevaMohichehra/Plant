@@ -5,7 +5,7 @@ export const Container = styled.div`
   display:flex;
   justify-content:center;
   margin-top:30px;
-  padding: 0 140px ;
+  // padding: 0 140px ;
 
    @media (max-width: 400px) {
    padding: 0 ;

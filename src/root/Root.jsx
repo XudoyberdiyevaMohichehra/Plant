@@ -4,9 +4,9 @@ import Collection from "../components/Collection";
 import About from "../components/About";
 import Best from "../components/Best";
 import Customer from "../components/Customer";
-// import Subscribe from "../components/Subscribe";
-// import Follow from "../components/Follow";
-// import Footer from "../components/Footer";
+import Subscribe from "../components/Subscribe";
+import Follow from "../components/Follow";
+import Footer from "../components/Footer";
 import { Container } from "./style";
 
 function Root() {
@@ -18,9 +18,9 @@ function Root() {
       <About />
       <Best/>
       <Customer/>
-      {/* <Subscribe /> */}
-      {/* <Follow /> */}
-      {/* <Footer /> */}
+      <Subscribe /> 
+      <Follow />
+       <Footer /> 
     </Container>
   );
 }
