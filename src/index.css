@@ -52,12 +52,4 @@
       .leaf {
          display: none;
       }
-      .button{
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center; */
-        /* margin: auto; */
-        /* transform: translate(50%, -50%); */
-      }
     }
