@@ -17,8 +17,8 @@ function Root() {
       <Collection />
       <About />
       <Best/>
-      {/* <Customer/>
-      <Subscribe />
+      <Customer/>
+      {/* <Subscribe />
       <Follow />
       <Footer /> */}
     </Container>
