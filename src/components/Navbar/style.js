@@ -4,7 +4,7 @@ import NormalButton from "../Button";
 export const Container = styled.div`
   display:flex;
   justify-content:center;
-  padding: 0px 144px ;
+  // padding: 0px 144px ;
   padding-top: 40px ;
   
   @media (max-width: 400px) {
@@ -25,9 +25,9 @@ export const Wrapper = styled.div`
 `
 
 export const Section = styled.div`
-  // display:flex;
-  // align-items:center;
-  // gap:50px;
+  display:flex;
+  align-items:center;
+  gap:50px;
 `
 export const LogoTitle = styled.h3`
   font-family: 'Nunito';
@@ -36,10 +36,6 @@ export const LogoTitle = styled.h3`
   font-size: 24px;
   line-height: 33px;
   color: #1A1A1A;
-
-  @media (max-width: 400px) {
-  
- }
 `
 
 export const Ul = styled.ul`
@@ -71,9 +67,7 @@ export const Li = styled.li`
   @media (max-width: 400px) {
     display:none;
   }
-
 `
-
 export const Img = styled.img`
  display:none;
  width:30px;

@@ -13,7 +13,7 @@ function Root() {
   return (
     <Container >
      <Navbar/>
-      {/* <Main /> */}
+      <Main />
       <Collection />
       {/* <About /> */}
       {/* <Best/> */}

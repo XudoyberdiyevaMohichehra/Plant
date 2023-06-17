@@ -1,10 +1,16 @@
 import styled from "styled-components";
-
+import NormalButton from "../Button";
 
 export const Container = styled.div`
   display:flex;
   justify-content:center;
   margin-top:30px;
+  padding: 0 140px ;
+
+   @media (max-width: 400px) {
+   padding: 0 ;
+   
+}
   `
 export const Wrapper = styled.div`
  display:flex;
@@ -13,6 +19,8 @@ export const Wrapper = styled.div`
  max-width: 1440px;
 
  @media (max-width: 400px) {
+  flex-direction:column;  
+  padding-left:15px;
 }
 `
 
@@ -26,6 +34,7 @@ export const ImgDiv = styled.div`
 
  @media (max-width: 400px) {
   display:none;
+ }
 `
 export const Header = styled.div`
   font-family: 'Nunito';
@@ -38,11 +47,13 @@ export const Header = styled.div`
   margin-top: 90px;
 
   @media (max-width: 400px) {
-  font-size: 56px;
-  margin-top: 90px;
-  line-height: 70px;
+  font-size: 40px;
+  margin-top: 20px;
+  line-height: 50px;
+  text-align:center;
     
 }
+
 `
 export const Title = styled.p`
   font-family: 'DM Sans';
@@ -54,14 +65,24 @@ export const Title = styled.p`
   padding: 35px 0;
   width:85%;
 
+  @media (max-width: 400px) {
+  font-size: 16px;
+  line-height: 160%;
+  text-align:center;  
+}
+
 `
+export const NormalButton1 = styled(NormalButton)`
+  
+`
+
 export const PlusBoxes = styled.div`
   display:flex;
   gap:90px;
   margin-top:50px;
 
   @media (max-width: 400px) {
-    gap:30px; 
+    gap:20px; 
 }
 `
 export const PlusBox = styled.div`
@@ -77,6 +98,11 @@ export const Number = styled.p`
   font-size: 36px;
   line-height: 49px;
   color: #001B04;
+
+  @media (max-width: 400px) {
+  font-size: 30px;
+  line-height: 40px;
+ }
 `
 export const NumberTitle = styled.p`
   font-family: 'DM Sans';
@@ -89,8 +115,8 @@ export const NumberTitle = styled.p`
 
 export const Img = styled.img`
  @media (max-width: 400px) {
-  width:400px;
-  height:600px;
+  width:370px;
+  height:500px;
 }
 `
 export const Div = styled.div`

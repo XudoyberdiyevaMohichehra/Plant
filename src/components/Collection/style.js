@@ -26,9 +26,6 @@ export const Section = styled.div`
   width:400px;
   display:flex;
   flex-direction:column;
-  // justify-content:center;
-  // align-items:center;
-
 }
 `
 export const Header = styled.div`

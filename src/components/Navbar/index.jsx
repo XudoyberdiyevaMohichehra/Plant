@@ -24,9 +24,9 @@ function Navbar() {
                     <Li className="li" >Login</Li>
                     <Button padding fontsize>Sign Up</Button>
            </Section>
-           <Section>
+           {/* <Section> */}
                     <Img src={Menu} alt="menu"/>
-           </Section>
+           {/* </Section> */}
           </Wrapper>
         </Container>
     );
