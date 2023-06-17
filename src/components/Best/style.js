@@ -45,6 +45,10 @@ export const ImgWrapper = styled.div`
    display:flex;
    gap:25px;
    margin: 15px 0;
+
+  @media (max-width: 400px) {
+  flex-direction:column;
+}
 `
 export const ImgBox = styled.div`
    padding:10px 32px;

@@ -87,12 +87,12 @@ export const Title = styled.p`
   padding-top: 16px ;
   width:90%;
 
-   @media (max-width: 400px) {
+  @media (max-width: 400px) {
   font-size: 16px;
   line-height: 140%;
   text-align:center;
 }
-}
+
 `
 
 export const Img = styled.img`
