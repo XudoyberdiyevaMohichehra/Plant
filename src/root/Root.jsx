@@ -20,7 +20,7 @@ function Root() {
       <Customer/>
       {/* <Subscribe /> */}
       {/* <Follow /> */}
-      <Footer />
+      {/* <Footer /> */}
     </Container>
   );
 }
