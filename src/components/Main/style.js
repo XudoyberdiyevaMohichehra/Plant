@@ -9,7 +9,8 @@ export const Container = styled.div`
 
    @media (max-width: 600px) {
    padding: 0 ;
-   
+   margin-top:10px;
+    
 }
   `
 export const Wrapper = styled.div`
@@ -73,7 +74,8 @@ export const Title = styled.p`
 
 `
 export const NormalButton1 = styled(NormalButton)`
-  
+  @media (max-width: 600px) {
+  margin-left:130px;
 `
 
 export const PlusBoxes = styled.div`
@@ -81,8 +83,9 @@ export const PlusBoxes = styled.div`
   gap:90px;
   margin-top:50px;
 
-  @media (max-width: 600px) {
-    gap:20px; 
+ @media (max-width: 600px) {
+   margin-left:50px;
+    gap:20px;  
 }
 `
 export const PlusBox = styled.div`

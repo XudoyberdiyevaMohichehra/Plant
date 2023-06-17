@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
 
  @media (max-width: 600px) {
  justify-content:space-between;
-  gap:10vw;
+  gap:13vw;
 }
 `
 

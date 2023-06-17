@@ -112,6 +112,10 @@ export const Div = styled.div`
  width:380px;
  height:380px;
  position:relative;
+
+ @media (max-width: 600px) {
+  padding-left:80px;
+}
 `
 export const Div2 = styled.div`
  width:450px;

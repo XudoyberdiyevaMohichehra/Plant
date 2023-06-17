@@ -40,6 +40,7 @@ export const Header = styled.div`
   font-size: 30px;
   line-height: 40px;
   text-align:center;
+  padding:0 40px;
 }
 
 `
