@@ -25,7 +25,7 @@ function Customer() {
                        <Div2>
                         <div style={{width:'100%', display:'flex', justifyContent: 'space-between'}}>
                                 <div style={{  display: 'flex', justifyContent: 'space-between', gap:'15px'}}>
-                                    <img src={Boy} />
+                                    <img src={Boy} alt="rasm"/>
                                   <div>
                                         <Text>Hasanul Islam</Text>
                                         <Text2>Marketing CEO</Text2>

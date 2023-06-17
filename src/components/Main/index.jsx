@@ -38,7 +38,7 @@ function Main() {
                     </PlusBoxes>
                 </Section>
                 <ImgDiv>
-                <img className="leaf" src={Leaf} />
+                <img className="leaf" src={Leaf} alt="rasm" />
                 </ImgDiv>
 
                 <Img src={Aloe} alt="Aloe" />
