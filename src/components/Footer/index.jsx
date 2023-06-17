@@ -1,7 +1,7 @@
 import {
     Container, Wrapper, Section, Text,
     Header, Title, Icon,
-    Div, Div2,
+    Div, Div2, Div3
 } from "./style";
 
 function About() {
@@ -11,7 +11,7 @@ function About() {
                 <Section>
                     <Header>Plant</Header>
                     <Title>Lorem ipsum dolor sit amet, consectetur adi piscing elit. Diam nibh posuere duis eu non sit integer at placerat amet.</Title>
-                    <div style={{display:'flex', gap:'16px'}}>
+                    <Div3 >
                         <Div2 href="https://www.facebook.com/profile.php?id=100093196613992">
                             <Icon.Facebook />
                         </Div2>
@@ -21,7 +21,7 @@ function About() {
                         <Div2 href="https://twitter.com/">
                             <Icon.Twitter />
                         </Div2>
-                    </div>
+                    </Div3>
                 </Section>
 
                 <Div>

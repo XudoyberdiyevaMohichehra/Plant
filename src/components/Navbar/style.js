@@ -8,7 +8,7 @@ export const Container = styled.div`
   padding-top: 40px ;
   
   @media (max-width: 400px) {
-  padding: 40px 40px ;
+  padding: 40px 0 ;
  }
   `
 export const Wrapper = styled.div`
@@ -19,8 +19,7 @@ export const Wrapper = styled.div`
  max-width: 1440px;
 
  @media (max-width: 400px) {
- justify-content:space-between;
-  gap:10vw;
+  gap:13vw;
 }
 `
 

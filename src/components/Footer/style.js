@@ -15,15 +15,34 @@ export const Wrapper = styled.div`
  width:100%;
  max-width: 1440px;
 
+  @media (max-width: 400px) {
+   padding-left:20px;
+  }
 `
 
 export const Section = styled.div`
  flex:1;
 `
 export const Div = styled.div`
- flex:2;
  display:flex;
- justify-content:space-evenly;
+ gap:16px;
+
+ @media (max-width: 400px) {
+  flex-direction:column;
+   padding-left:70px;
+
+}
+`
+export const Div3 = styled.div`
+//  flex:2;
+//  display:flex;
+//  justify-content:space-evenly;
+
+ @media (max-width: 400px) {
+  flex-direction:column;
+ flex:2;
+
+}
 `
 
 export const Header = styled.h3`
@@ -45,6 +64,9 @@ export const Title = styled.p`
   padding: 16px 0 20px 0;
   width:90%;
 
+  @media (max-width: 400px) {
+  display:none;
+}
 `
 export const Text = styled.p`
   font-family: 'DM Sans';
@@ -59,6 +81,10 @@ export const Text = styled.p`
      color:blue;
      cursor:pointer;
   }
+
+  @media (max-width: 400px) {
+  display:none;
+}
   
 `
 

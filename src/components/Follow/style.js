@@ -24,6 +24,9 @@ export const Header = styled.div`
   font-size: 40px;
   line-height: 50px;
   color: #1A1A1A;
+  @media (max-width: 400px) {
+  text-align:center;
+}
 `
 export const Title = styled.p`
   font-family: 'DM Sans';
@@ -35,10 +38,17 @@ export const Title = styled.p`
   text-align:center;
   width:50%;
   padding-bottom:20px;
+  @media (max-width: 400px) {
+  display:none;
+}
 `
 
 export const ImgWrapper = styled.div`
    display:flex;
+
+   @media (max-width: 400px) {
+  flex-direction:column;
+}
 `
 export const ImgBox = styled.div`
    display:flex;

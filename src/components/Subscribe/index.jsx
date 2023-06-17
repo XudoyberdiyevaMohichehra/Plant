@@ -6,9 +6,11 @@ import {
     Title,
     Input,
     Div, 
+    Div2,
     Button,
     ImgBox, 
     Img, 
+    Div3
 } from "./style";
 
 import Flower from "../../assets/imgs/uniqui-plant.png";
@@ -19,16 +21,16 @@ function Subscribe() {
         <Container >
             <Wrapper>
                 <Section>
-                <div style={{width:'60%'}} >
+                    <Div2  >
                     <Header>Subscribe Our Newsletter</Header>
                     <Title >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, at tempor, accumsan sit amet nunc cursus. </Title>
-                       <div  style={{display:'flex'}}>
+                        <Div3  >
                         <Input type="text" placeholder="Enter mail"></Input>
                         <Div>
                         <Button fontsize padding>Subscribe</Button>
                         </Div>
-                       </div>
-                    </div>
+                        </Div3>
+                    </Div2>
                     <ImgBox>
                       <Img src={Flower} alt="Flower" />
                     </ImgBox>

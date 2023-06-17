@@ -5,6 +5,11 @@ export const Container = styled.div`
   display:flex;
   justify-content:center;
   margin-top:164px;
+
+   @media (max-width: 400px) {
+   margin-top:134px;
+
+ }
   `
 export const Wrapper = styled.div`
  display:flex;
@@ -21,6 +26,18 @@ export const Section = styled.div`
   background:var(--aquaBlue);
   padding:60px;
   position:relative;
+
+   @media (max-width: 400px) {
+   width: 400px;
+   height: 300px;
+ }
+`
+export const Div2 = styled.div`
+   width:60%;
+
+   @media (max-width: 400px) {
+      width:100%;
+ }
 `
 export const Header = styled.div`
   font-family: 'Nunito';
@@ -29,6 +46,13 @@ export const Header = styled.div`
   font-size: 40px;
   line-height: 50px;
   color: #1A1A1A;
+
+  @media (max-width: 400px) {
+    font-size: 30px;
+    line-height: 40px;
+    width:100%;
+
+ }
 `
 export const Title = styled.p`
   font-family: 'DM Sans';
@@ -38,6 +62,10 @@ export const Title = styled.p`
   line-height: 23px;
   color: #4A4A4A;
   margin:30px 0;
+
+  @media (max-width: 400px) {
+   display:none;
+ }
 `
 
 
@@ -54,6 +82,15 @@ export const Img = styled.img`
    position:absolute;
    bottom: 0px;
    right:30px;
+    @media (max-width: 400px) {
+   display:none;
+ }
+`
+export const Div3 = styled.div`
+   display:flex;
+   @media (max-width: 400px) {
+     margin-top:30px;
+ }
 `
 export const Input = styled.input`
    width: 340px; 
@@ -64,6 +101,7 @@ export const Input = styled.input`
    border:none;
    outline:none;
    font-size: 14px;
+
   
 `
 export const Div = styled.div`
