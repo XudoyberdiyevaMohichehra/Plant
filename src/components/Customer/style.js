@@ -85,7 +85,7 @@ export const Div = styled.div`
   position: absolute;
   
   @media (max-width: 600px) {
-  width: 460px;
+  width: 305px;
   height:204px;
 }
 `

@@ -57,7 +57,6 @@ export const Text2 = styled.p`
   @media (max-width: 600px) {
   text-align:center;
   display:block;
-
 }
 `
 
