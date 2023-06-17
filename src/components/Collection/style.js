@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
   max-width: 1440px;
   gap:62px;
   
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
   flex-direction:column;
   justify-content:center;
   align-items:center;
@@ -22,8 +22,8 @@ export const Wrapper = styled.div`
 `
 
 export const Section = styled.div`
- @media (max-width: 400px) {
-  width:400px;
+ @media (max-width: 600px) {
+  width:600px;
   display:flex;
   flex-direction:column;
 }
@@ -36,7 +36,7 @@ export const Header = styled.div`
   line-height: 49px;
   color: #1A1A1A;
   
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
   font-size: 30px;
   line-height: 40px;
   text-align:center;
@@ -52,7 +52,7 @@ export const Title = styled.p`
   color: #4A4A4A;
   margin-top:40px;
 
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
   font-size: 16px;
   line-height: 20px;
   text-align:center;
@@ -63,7 +63,7 @@ export const ImgWrapper = styled.div`
    display:flex;
    gap:25px;
 
-   @media (max-width: 400px) {
+   @media (max-width: 600px) {
     flex-direction:column;
     justify-content:center;
   }

@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content:center;
   margin-top:128px;
 
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
   // padding: 40px 40px ;
  }
   `
@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
  width:100%;
  max-width: 1440px;
 
- @media (max-width: 400px) {
+ @media (max-width: 600px) {
   flex-direction:column;
 }
 
@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
 
 export const Section = styled.div`
  width:50%;
- @media (max-width: 400px) {
+ @media (max-width: 600px) {
   width:100%;
   display:flex;
   flex-direction:column;
@@ -40,7 +40,7 @@ export const Text = styled.p`
   line-height: 23px;
   color: #066F14;
 
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
   text-align:center;
 }
 `
@@ -54,7 +54,7 @@ export const Text2 = styled.p`
   padding-bottom:20px;
   display:none;
 
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
   text-align:center;
   display:block;
 
@@ -70,7 +70,7 @@ export const Header = styled.h3`
   color: #1A1A1A;
   width:90%;
 
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
   font-size: 35px;
   line-height: 45px;
   text-align:center;
@@ -87,7 +87,7 @@ export const Title = styled.p`
   padding-top: 16px ;
   width:90%;
 
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
   font-size: 16px;
   line-height: 140%;
   text-align:center;
@@ -101,7 +101,7 @@ export const Img = styled.img`
  position:relative;
  top:45px;
  left:65px;
- @media (max-width: 400px) {
+ @media (max-width: 600px) {
   width:330px;
   height:330px;
   top:35px;
@@ -117,7 +117,7 @@ export const Div2 = styled.div`
  width:450px;
  height:450px;
  background:var(--green);
- @media (max-width: 400px) {
+ @media (max-width: 600px) {
   width:350px;
   height:350px;
 }

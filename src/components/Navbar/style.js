@@ -7,7 +7,7 @@ export const Container = styled.div`
   // padding: 0px 144px ;
   padding-top: 40px ;
   
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
   padding: 40px 40px ;
  }
   `
@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
  width:100%;
  max-width: 1440px;
 
- @media (max-width: 400px) {
+ @media (max-width: 600px) {
  justify-content:space-between;
   gap:10vw;
 }
@@ -64,7 +64,7 @@ export const Li = styled.li`
     cursor:pointer;
   }
   
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     display:none;
   }
 `
@@ -73,13 +73,13 @@ export const Img = styled.img`
  width:30px;
  height:30px;
 
- @media (max-width: 400px) {
+ @media (max-width: 600px) {
  display:block;
 }
 `
 export const Button = styled(NormalButton)`
  
- @media (max-width: 400px) {
+ @media (max-width: 600px) {
  display:none;
   
 }
