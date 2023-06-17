@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display:flex;
+  justify-content:center;
   margin-top:30px;
   `
 export const Wrapper = styled.div`
@@ -22,6 +23,9 @@ export const ImgDiv = styled.div`
  position: absolute;
  top:500px;
  left:550px;
+
+ @media (max-width: 400px) {
+  display:none;
 `
 export const Header = styled.div`
   font-family: 'Nunito';
@@ -55,6 +59,10 @@ export const PlusBoxes = styled.div`
   display:flex;
   gap:90px;
   margin-top:50px;
+
+  @media (max-width: 400px) {
+    gap:30px; 
+}
 `
 export const PlusBox = styled.div`
   display:flex;

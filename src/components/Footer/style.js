@@ -6,6 +6,7 @@ import { ReactComponent as Twitter } from "../../assets/icons/twitter.svg";
 
 export const Container = styled.div`
   display:flex;
+  justify-content:center;
   margin-top:128px;
   `
 export const Wrapper = styled.div`
