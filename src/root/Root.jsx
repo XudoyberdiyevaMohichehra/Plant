@@ -18,9 +18,9 @@ function Root() {
       <About />
       <Best/>
       <Customer/>
-      {/* <Subscribe />
-      <Follow />
-      <Footer /> */}
+      {/* <Subscribe /> */}
+      {/* <Follow /> */}
+      <Footer />
     </Container>
   );
 }

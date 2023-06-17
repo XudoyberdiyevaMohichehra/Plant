@@ -7,7 +7,7 @@ export const Container = styled.div`
   margin-top:128px;
 
   @media (max-width: 400px) {
-  margin-top:100px;
+  margin-top:90px;
 }
   `
 export const Wrapper = styled.div`
