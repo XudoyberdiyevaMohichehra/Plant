@@ -15,8 +15,8 @@ function Root() {
      <Navbar/>
       <Main />
       <Collection />
-      {/* <About /> */}
-      {/* <Best/> */}
+      <About />
+      <Best/>
       {/* <Customer/>
       <Subscribe />
       <Follow />

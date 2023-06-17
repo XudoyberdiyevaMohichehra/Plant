@@ -2,7 +2,7 @@ import NormalButton from "../Button";
 import {
     Container, Wrapper, Section, Text,
     Header, Title,
-    Img, Div, Div2,
+    Img, Div, Div2, Text2
 } from "./style";
 
 import Tree from "../../assets/imgs/tree.png";
@@ -12,6 +12,7 @@ function About() {
         <Container >
             <Wrapper>
                 <Div>
+                    <Text2>About Us</Text2>
                     <Div2>
                         <Img src={Tree} alt="Aloe" />
                     </Div2>
