@@ -25,18 +25,18 @@ export const Section = styled.div`
 `
 export const Div = styled.div`
  display:flex;
+ justify-content:space-evenly;
  gap:16px;
+ flex:2;
 
  @media (max-width: 400px) {
   flex-direction:column;
-   padding-left:70px;
-
+  padding-left:70px;
 }
 `
 export const Div3 = styled.div`
-//  flex:2;
-//  display:flex;
-//  justify-content:space-evenly;
+ display:flex;
+  gap:16px;
 
  @media (max-width: 400px) {
   flex-direction:column;
